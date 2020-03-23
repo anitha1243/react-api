@@ -25,7 +25,7 @@
 	"name": "react-api",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://github.com/anitha1243/Impact",
+	"homepage": "https://anitha1243.github.io/react-api/",
 	"dependencies": {
 		"gh-pages": "^2.0.1",
 		"react": "^16.8.3",
@@ -35,8 +35,8 @@
 	"scripts": {
 		"start": "react-scripts start",
 		"build": "react-scripts build",
-		"predeploy": "yarn run build",
-		"deploy": "gh-pages -d build",
+		"predeploy": "npm run build",
+    	"deploy": "gh-pages -d build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject"},
 	"eslintConfig": {
